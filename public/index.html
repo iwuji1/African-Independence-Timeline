@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollToPlugin.min.js"></script>
+        <title>Hello World Simple App</title>
+        <link rel="stylesheet" type="text/css" href="/css/style.css"/>
+    </head>
+    <div id="page" class="site">
+
+      <div id="feather" class="feather"></div>
+
+      <header id="masthead" class="site-header" role="banner">
+        <nav class="anchor-nav" role="navigation">
+          <a href="#intro" class="anchor">Home</a>
+          <a href="#panel-1" class="anchor">Panel 1</a>
+          <a href="#panel-2" class="anchor">Panel 2</a>
+          <a href="#panel-3" class="anchor">Panel 2</a>
+          <a href="#map" class="anchor">Map</a>
+        </nav>
+      </header>
+      <body>
+      <main id="content" class="site-content" role="main">
+
+        <section id="intro" class="full-screen pt-5 blue">
+          <h1>A Scrolling History of African Independence</h1>
+
+          <div id="clouds-layer-1" class="clouds"></div>
+          <div id="clouds-layer-2" class="clouds"></div>
+        </section>
+        <div class="content-container">
+        <div class="left-content">
+          <div id="info1" class="infoToShow" >
+            <h1>Stirring the Pot</h1>
+            <h2>1847 - 1941</h2>
+
+            <p>Our Timeline starts in 1847 and jumps to 1910. At this point it is fair to say there wasnt
+              really refined understanding of national sovereinity for nations. But this all changed during
+              the American Civil war which catelyzed the liberation of Liberia and awakened the world
+              to what is possible outside of the house of the colonizers</p>
+            <div class="link-container" >
+              <div class="Country Button"><a href="#panel-1" class="anchor">Liberia</a></div>
+              <div class="Country Button"><a href="#panel-2" class="anchor">South Africa</a></div>
+              <div class="Country Button"><a href="#panel-3" class="anchor">Egypt</a></div>
+            </div>
+          </div>
+        </div>
+        <div class="right-content">
+        <section id="panels" class="contentMarker" data-marker-content="info1">
+
+          <div id="panels-container" style="width: 500%;">
+            <article id="panel-1" class="panel red">
+              <div class="container">
+                <div class="row">
+                  <div class="col-6">
+
+                    <img src="/images/Liberia Independence Card.png" alt="">
+
+                  </div>
+                  <div class="col-6 d-flex flex-column">
+
+                    <h2>Panel 1</h2>
+
+                    <p class="step-description">
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Including versions of Lorem Ipsum.
+                    </p>
+
+                    <div class="panels-navigation text-right">
+                      <div class="nav-panel" data-sign="plus"><a href="#panel-2" class="anchor">Next</a></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <article id="panel-2" class="panel orange">
+              <div class="container">
+                <div class="row">
+                  <div class="col-6">
+
+                    <img src="/images/South Africa Independence Card.png" alt="">
+
+                  </div>
+                  <div class="col-6 d-flex flex-column">
+
+                    <h2>Panel 2</h2>
+
+                    <p class="step-description">
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Including versions of Lorem Ipsum.
+                    </p>
+
+                    <div class="panels-navigation">
+                      <div class="nav-panel" data-sign="minus"><a href="#panel-1" class="anchor">Prev</a></div>
+                      <div class="nav-panel" data-sign="plus"><a href="#panel-3" class="anchor">Next</a></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <article id="panel-3" class="panel purple">
+              <div class="container">
+                <div class="row">
+                  <div class="col-6">
+
+                    <img src="/images/Egypt Independence Card.png" alt="">
+
+                  </div>
+                  <div class="col-6 d-flex flex-column">
+
+                    <h2>Panel 3</h2>
+
+                    <p class="step-description">
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Including versions of Lorem Ipsum.
+                    </p>
+
+                    <div class="panels-navigation">
+                      <div class="nav-panel" data-sign="minus"><a href="#panel-2" class="anchor">Prev</a></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
+        </div>
+        </div>
+
+        <section id="map" class="full-screen">
+          <h1>End of timeline</h1>
+
+        </section>
+
+      </main>
+      </body>
+
+    </div>
+    <script type="text/javascript" src="/javascript/timeline.js"></script>
+</html>
