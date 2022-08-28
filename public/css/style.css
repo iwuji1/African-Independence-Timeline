@@ -4,9 +4,10 @@ body {
   height: 100%;
   font-weight: 300;
 }
+
 body {
   overflow-x: hidden;
-  font-family: verdana;
+  font-family:sans-serif;
 
 }
 
@@ -19,29 +20,38 @@ h2 {
   text-align: center;
 }
 
+section {
+  background-color: white;
+}
+
 .full-screen {
-  display: block;
-  width: 100%;
+  /* display: block; */
+  scroll-snap-align: start;
   height: 100vh;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .intro-content {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  color: white;
-  font-size: 72pt;
+  color: black;
+  font-size: 60pt;
   position: relative;
   padding-top: 10%;
 }
 
 .bg {
   opacity: 0.6;
-  width: 100%;
+  width: 100vw;
   position: absolute;
+}
 
-
+#intro {
+  background-image: url("/images/Africa_independence_2.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #masthead {
@@ -63,10 +73,12 @@ h2 {
   padding-left: center;
   display: flex;
   align-content: center;
+  justify-content: center;
 }
 .flex-container {
   display: flex;
   align-content: center;
+  justify-content: space-around;
 }
 .link-container {
   display: flex;
@@ -97,6 +109,13 @@ h2 {
   visibility: hidden;
 }
 
+.viz-content {
+  display: flex;
+}
+
+.write-content {
+
+}
 
 #panels #panels-container {
   height: 60vh;
@@ -151,4 +170,45 @@ img {
   width: 60vw;
   bottom: 2rem;
   right: 2rem;
+}
+
+/* Vis CSS */
+
+.flex-container {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.flex-container > * {
+  width: 50%;
+}
+
+.viz-content {
+  align-content: center;
+}
+.write-content p{
+  font-size: 18pt;
+  margin: 100px 300px 100px 0;
+}
+
+.write-content h1{
+  color: "#F7931E";
+  font-size: 30pt;
+  margin: 100px 300px 100px 0;
+}
+
+.Y-axis path,
+.Y-axis line{
+  fill: none;
+  stroke: none;
+  stroke-width: none;
+}
+
+.Y-axis text{
+  font-size: 20px;
+}
+
+#test rect.bars {
+  fill: "#69b3a2";
 }

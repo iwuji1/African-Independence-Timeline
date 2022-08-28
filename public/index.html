@@ -8,7 +8,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollToPlugin.min.js"></script>
         <script src="https://d3js.org/d3.v4.js"></script>
-        <title>Hello World Simple App</title>
+        <title>African Independence</title>
         <link rel="stylesheet" type="text/css" href="/css/style.css"/>
     </head>
     <div id="page" class="site">
@@ -23,20 +23,35 @@
       <body>
       <main id="content" class="site-content" role="main">
 
-        <section id="intro" class="full-screen pt-5 blue">
-          <img class="bg" src="/images/Africa_independence_2.jpeg" alt="">
+        <section id="intro" class="full-screen">
+          <!-- <img class="bg" src="/images/Africa_independence_2.jpeg" alt=""> -->
           <div class="intro-content">
-            <h1>A Scrolling History of African Independence</h1>
+            <h1 style="background-color: #F7931E">A Scrolling History of African Independence</h1>
+          </div>
+          <!-- <div class="scroll-down">Scroll down<div class="arrow"> -->
+
+        </section>
+
+        <section class="flex-container full-screen">
+          <div class="viz-content">
+            <div id="bar_viz">
+            </div>
+          </div>
+          <div class="write-content">
+            <div>
+              <h1>Who were the Colonizers?</h1>
+              <p>It doesn't take history buff to not that much of the colonization of the african contiennt was attributed
+                to the Europeans who went out into the world is such of resources and cheap labour. But who were the real forces
+              driving the mission??</p>
+
+            <p>It turns out whilst Britain was defintely a leader in the pack controlling 21 nations, france was equally an equally dominant force
+          taking 20 nations. Spain and Portugual also played a key role amoung others. As we look into the timeline below we can learn more about what this looked like. </p>
+            </div>
           </div>
 
-          <div id="clouds-layer-1" class="clouds"></div>
-          <div id="clouds-layer-2" class="clouds"></div>
-        </section>
-        <section>
-          <div id="bar_viz"> </div>
         </section>
 
-        <div class="content-container">
+        <section class="content-container full-screen">
         <div class="left-content">
           <div id="info1" class="infoToShow" >
             <h1>Stirring the Pot</h1>
@@ -47,10 +62,10 @@
               the American Civil war which catelyzed the liberation of Liberia and awakened the world
               to what is possible outside of the house of the colonizers</p>
             <div class="link-container" >
-              <div class="Country Button"><a href="#panel-1" class="anchor">Liberia</a></div>
-              <div class="Country Button"><a href="#panel-2" class="anchor">South Africa</a></div>
-              <div class="Country Button"><a href="#panel-3" class="anchor">Egypt</a></div>
-              <div class="Country Button"><a href="#panel-4" class="anchor">Ethiopia</a></div>
+              <div class="Country Button"><a href="#" class="anchor">Liberia</a></div>
+              <div class="Country Button"><a href="#" class="anchor">South Africa</a></div>
+              <div class="Country Button"><a href="#" class="anchor">Egypt</a></div>
+              <div class="Country Button"><a href="#" class="anchor">Ethiopia</a></div>
             </div>
           </div>
           <div id="info2" class="infoToShow" >
@@ -69,9 +84,8 @@
         </div>
         <div class="right-content">
         <section id="panels" class="contentMarker" data-marker-content="info1">
-
           <div id="panels-container" style="width: 500%;">
-            <article id="panel-1" class="panel red">
+            <article id="panel-1" class="panel">
               <div class="container">
                 <div class="row">
                   <div class="col-6">
@@ -82,7 +96,7 @@
                 </div>
               </div>
             </article>
-            <article id="panel-2" class="panel orange">
+            <article id="panel-2" class="panel">
               <div class="container">
                 <div class="row">
                   <div class="col-6">
@@ -92,9 +106,8 @@
                   </div>
                   </div>
                 </div>
-              </div>
             </article>
-            <article id="panel-3" class="panel purple">
+            <article id="panel-3" class="panel">
               <div class="container">
                 <div class="row">
                   <div class="col-6">
@@ -105,8 +118,7 @@
                 </div>
               </div>
             </article>
-
-            <article id="panel-4" class="panel purple">
+            <article id="panel-4" class="panel">
               <div class="container">
                 <div class="row">
                   <div class="col-6">
@@ -120,10 +132,10 @@
           </div>
         </section>
         </div>
-        </div>
+      </section>
 
         <section id="map" class="full-screen">
-          <h1>End of timeline</h1>
+          <h1>Timeline to be Updated</h1>
 
         </section>
 
