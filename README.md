@@ -10,3 +10,5 @@ The version of d3 here is v4, and GSAP was used to do most of the animations
 the master in this project is called main, so when running git pull or push you are pushing to main not master
 
 We'll leave it there for now but hopefully that helps future me!!
+
+Here is the link: https://iwuji1.github.io/African-Independence-Timeline/
