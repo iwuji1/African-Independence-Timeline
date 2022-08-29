@@ -1,4 +1,6 @@
 /* Main navigation */
+gsap.registerPlugin(ScrollTrigger)
+gsap.registerPlugin(ScrollToPlugin)
 //Smooth Snap between full-screen sections
 gsap.utils.toArray(".full-screen").forEach((panel, i) => {
   ScrollTrigger.create({
@@ -15,8 +17,8 @@ ScrollTrigger.create({
 });
 
 //Scroll trigger for chart animation
-gsap.from("#test rect.bars", {
-  ScrollTrigger: {
+gsap.from(".write-content", {
+  scrollTrigger: {
     trigger: ".viz-content",
     start: "top top",
     scrub: true,
@@ -24,7 +26,6 @@ gsap.from("#test rect.bars", {
   duration: 1,
   opacity: 0,
   x:0,
-  stagger:0.25,
   ease: "none"
 });
 

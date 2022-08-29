@@ -51,7 +51,7 @@ d3.csv("/javascript/African Independence timeline - Colonizer List.csv", functio
     .data(data)
     .enter()
     .append("rect")
-    .attr("class", "bars")
+    .attr("class", "bar")
     .attr("x", x(0) )
     .attr("y", function(d) { return y(d.Colonizer); })
     .attr("width", function(d) { return x(d.Number_of_colonies); })
