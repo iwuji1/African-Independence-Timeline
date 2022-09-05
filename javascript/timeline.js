@@ -12,21 +12,23 @@ gsap.utils.toArray(".full-screen").forEach((panel, i) => {
 });
 
 
-ScrollTrigger.create({
-  snap: 1 / 16 // snap whole page to the closest section!
-});
+// ScrollTrigger.create({
+//   snap: 1 / 16 // snap whole page to the closest section!
+// });
 
 //Scroll trigger for chart animation
-gsap.from(".write-content", {
+gsap.from("#bar_viz", {
   scrollTrigger: {
     trigger: ".viz-content",
-    start: "top top",
-    scrub: true,
+    start: "top centre",
+    end: "bottom",
+    toggleActions: "restart pause resume pause"
   },
-  duration: 1,
+
+  x:-100,
   opacity: 0,
-  x:0,
-  ease: "none"
+  duration: 1,
+  ease: "power1.out"
 });
 
 
