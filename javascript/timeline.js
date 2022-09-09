@@ -2,14 +2,14 @@
 gsap.registerPlugin(ScrollTrigger)
 gsap.registerPlugin(ScrollToPlugin)
 //Smooth Snap between full-screen sections
-gsap.utils.toArray(".full-screen").forEach((panel, i) => {
-  ScrollTrigger.create({
-    trigger: panel,
-    start: "top top",
-    pin: true,
-    pinSpacing: false
-  });
-});
+// gsap.utils.toArray(".full-screen").forEach((panel, i) => {
+//   ScrollTrigger.create({
+//     trigger: panel,
+//     start: "top top",
+//     pin: true,
+//     pinSpacing: false
+//   });
+// });
 
 
 // ScrollTrigger.create({
@@ -20,17 +20,19 @@ gsap.utils.toArray(".full-screen").forEach((panel, i) => {
 gsap.from("#bar_viz", {
   scrollTrigger: {
     trigger: ".viz-content",
-    start: "top centre",
+    start: "top top",
     end: "bottom",
-    toggleActions: "restart pause resume pause"
   },
 
   x:-100,
   opacity: 0,
-  duration: 1,
+  duration: 0.5,
   ease: "power1.out"
 });
 
+gsap.defaults({overwrite: 'auto'});
+
+gsap.set(".left-content > *", {xPercent: -50, yPercent: -50});
 
 // Set up our scroll trigger for timeline scrolly
 const ST = ScrollTrigger.create({
@@ -47,7 +49,7 @@ const contentMarkers = gsap.utils.toArray(".contentMarker");
 contentMarkers.forEach(marker => {
   marker.content = document.querySelector(`#${marker.dataset.markerContent}`);
 
-  if(marker.content.tagName === "DIV") {
+  if(marker.content.tagName === "ARTICLE") {
     gsap.set(marker.content, {transformOrigin: "center"});
 
     marker.content.enter = function() {
