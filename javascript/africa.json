@@ -1,0 +1,857 @@
+[
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.04,
+        36.75
+      ]
+    },
+    "properties": {
+      "capital": "Algiers",
+      "country": "Algeria",
+      "colonizer": "France"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        13.23,
+        -8.84
+      ]
+    },
+    "properties": {
+      "capital": "Luanda",
+      "country": "Angola",
+      "colonizer": "Portugal"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.6,
+        6.5
+      ]
+    },
+    "properties": {
+      "capital": "Porto-Novo",
+      "country": "Benin",
+      "colonizer": "France"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        25.91,
+        -24.65
+      ]
+    },
+    "properties": {
+      "capital": "Gaborone",
+      "country": "Botswana",
+      "colonizer": "Britain"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -1.53,
+        12.37
+      ]
+    },
+    "properties": {
+      "capital": "Ouagadougou",
+      "country": "Burkina Faso",
+      "colonizer": "France"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        29.36,
+        -3.38
+      ]
+    },
+    "properties": {
+      "capital": "Bujumbura",
+      "country": "Burundi",
+      "colonizer": "Belgium"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        11.52,
+        3.87
+      ]
+    },
+    "properties": {
+      "capital": "Yaoundé",
+      "country": "Cameroon",
+      "colonizer": "France"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -23.51,
+        14.93
+      ]
+    },
+    "properties": {
+      "capital": "Praia",
+      "country": "Cape Verde",
+      "colonizer": "Portugal"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        18.55,
+        4.36
+      ]
+    },
+    "properties": {
+      "capital": "Bangui",
+      "country": "Central African Republic",
+      "colonizer": "France"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        15.04,
+        12.11
+      ]
+    },
+    "properties": {
+      "capital": "N'Djamena",
+      "country": "Chad",
+      "colonizer": "France"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        43.26,
+        -11.7
+      ]
+    },
+    "properties": {
+      "capital": "Moroni",
+      "country": "Comoros",
+      "colonizer": "France"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        15.31,
+        -4.32
+      ]
+    },
+    "properties": {
+      "capital": "Kinshasa",
+      "country": "Democratic Republic of the Congo",
+      "colonizer": "Belgium"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        43.15,
+        11.59
+      ]
+    },
+    "properties": {
+      "capital": "Djibouti",
+      "country": "Djibouti",
+      "colonizer": "France"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        31.25,
+        30.06
+      ]
+    },
+    "properties": {
+      "capital": "Cairo",
+      "country": "Egypt",
+      "colonizer": "Britain"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        8.78,
+        3.75
+      ]
+    },
+    "properties": {
+      "capital": "Malabo",
+      "country": "Equatorial Guinea",
+      "colonizer": "Spain"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        38.93,
+        15.33
+      ]
+    },
+    "properties": {
+      "capital": "Asmara",
+      "country": "Eritrea",
+      "colonizer": "Ethiopia"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        38.75,
+        9.02
+      ]
+    },
+    "properties": {
+      "capital": "Addis Ababa",
+      "country": "Ethiopia",
+      "colonizer": "Italy"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        9.45,
+        0.39
+      ]
+    },
+    "properties": {
+      "capital": "Libreville",
+      "country": "Gabon",
+      "colonizer": "France"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -16.58,
+        13.45
+      ]
+    },
+    "properties": {
+      "capital": "Banjul",
+      "country": "Gambia",
+      "colonizer": "Britain"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -0.2,
+        5.56
+      ]
+    },
+    "properties": {
+      "capital": "Accra",
+      "country": "Ghana",
+      "colonizer": "Britain"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -13.68,
+        9.54
+      ]
+    },
+    "properties": {
+      "capital": "Conakry",
+      "country": "Guinea",
+      "colonizer": "France"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -15.6,
+        11.86
+      ]
+    },
+    "properties": {
+      "capital": "Bissau",
+      "country": "Guinea-Bissau",
+      "colonizer": "Portugal"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -5.28,
+        6.82
+      ]
+    },
+    "properties": {
+      "capital": "Yamoussoukro",
+      "country": "Ivory Coast",
+      "colonizer": "France"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        36.82,
+        -1.28
+      ]
+    },
+    "properties": {
+      "capital": "Nairobi",
+      "country": "Kenya",
+      "colonizer": "Britain"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        27.48,
+        -29.32
+      ]
+    },
+    "properties": {
+      "capital": "Maseru",
+      "country": "Lesotho",
+      "colonizer": "Britain"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -10.8,
+        6.3
+      ]
+    },
+    "properties": {
+      "capital": "Monrovia",
+      "country": "Liberia",
+      "colonizer": "United States"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        13.19,
+        32.88
+      ]
+    },
+    "properties": {
+      "capital": "Tripoli",
+      "country": "Libya",
+      "colonizer": "Britain"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        47.54,
+        -18.91
+      ]
+    },
+    "properties": {
+      "capital": "Antananarivo",
+      "country": "Madagascar",
+      "colonizer": "France"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        33.79,
+        -13.97
+      ]
+    },
+    "properties": {
+      "capital": "Lilongwe",
+      "country": "Malawi",
+      "colonizer": "Britain"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -8,
+        12.65
+      ]
+    },
+    "properties": {
+      "capital": "Bamako",
+      "country": "Mali",
+      "colonizer": "France"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -15.98,
+        18.09
+      ]
+    },
+    "properties": {
+      "capital": "Nouakchott",
+      "country": "Mauritania",
+      "colonizer": "France"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        57.5,
+        -20.16
+      ]
+    },
+    "properties": {
+      "capital": "Port Louis",
+      "country": "Mauritius",
+      "colonizer": "Britain"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        45.23,
+        -12.78
+      ]
+    },
+    "properties": {
+      "capital": "Mamoutzou",
+      "country": "Mayotte",
+      "colonizer": "N/A"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -6.83,
+        34.01
+      ]
+    },
+    "properties": {
+      "capital": "Rabat",
+      "country": "Morocco",
+      "colonizer": "Spain"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        32.58,
+        -25.97
+      ]
+    },
+    "properties": {
+      "capital": "Maputo",
+      "country": "Mozambique",
+      "colonizer": "Portugal"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        17.08,
+        -22.56
+      ]
+    },
+    "properties": {
+      "capital": "Windhoek",
+      "country": "Namibia",
+      "colonizer": "South Africa"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.11,
+        13.51
+      ]
+    },
+    "properties": {
+      "capital": "Niamey",
+      "country": "Niger",
+      "colonizer": "France"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        7.48,
+        9.07
+      ]
+    },
+    "properties": {
+      "capital": "Abuja",
+      "country": "Nigeria",
+      "colonizer": "Britain"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        15.28,
+        -4.27
+      ]
+    },
+    "properties": {
+      "capital": "Brazzaville",
+      "country": "Republic of the Congo",
+      "colonizer": "France"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        55.45,
+        -20.88
+      ]
+    },
+    "properties": {
+      "capital": "Saint-Denis",
+      "country": "Reunion",
+      "colonizer": "N/A"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        30.06,
+        -1.95
+      ]
+    },
+    "properties": {
+      "capital": "Kigali",
+      "country": "Rwanda",
+      "colonizer": "Belgium"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -5.72,
+        -15.94
+      ]
+    },
+    "properties": {
+      "capital": "Jamestown",
+      "country": "Saint Helena",
+      "colonizer": "N/A"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.73,
+        0.34
+      ]
+    },
+    "properties": {
+      "capital": "São Tomé",
+      "country": "Sao Tome and Principe",
+      "colonizer": "N/A"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -17.44,
+        14.69
+      ]
+    },
+    "properties": {
+      "capital": "Dakar",
+      "country": "Senegal",
+      "colonizer": "France"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        55.45,
+        -4.62
+      ]
+    },
+    "properties": {
+      "capital": "Victoria",
+      "country": "Seychelles",
+      "colonizer": "Britain"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -13.23,
+        8.48
+      ]
+    },
+    "properties": {
+      "capital": "Freetown",
+      "country": "Sierra Leone",
+      "colonizer": "Britain"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        45.34,
+        2.04
+      ]
+    },
+    "properties": {
+      "capital": "Mogadishu",
+      "country": "Somalia",
+      "colonizer": "Britain"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        28.19,
+        -25.74
+      ]
+    },
+    "properties": {
+      "capital": "Pretoria",
+      "country": "South Africa",
+      "colonizer": "Britain"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        32.53,
+        15.55
+      ]
+    },
+    "properties": {
+      "capital": "Khartoum",
+      "country": "Sudan",
+      "colonizer": "Egypt"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        31.13,
+        -26.32
+      ]
+    },
+    "properties": {
+      "capital": "Mbabane",
+      "country": "Swaziland",
+      "colonizer": "Britain"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        35.74,
+        -6.17
+      ]
+    },
+    "properties": {
+      "capital": "Dodoma",
+      "country": "Tanzania",
+      "colonizer": "Britain"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        1.21,
+        6.14
+      ]
+    },
+    "properties": {
+      "capital": "Lomé",
+      "country": "Togo",
+      "colonizer": "France"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        10.17,
+        36.82
+      ]
+    },
+    "properties": {
+      "capital": "Tunis",
+      "country": "Tunisia",
+      "colonizer": "France"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        32.58,
+        0.32
+      ]
+    },
+    "properties": {
+      "capital": "Kampala",
+      "country": "Uganda",
+      "colonizer": "Britain"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -13.2,
+        27.16
+      ]
+    },
+    "properties": {
+      "capital": "El Aaiún",
+      "country": "Western Sahara",
+      "colonizer": "Spain"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        28.29,
+        -15.41
+      ]
+    },
+    "properties": {
+      "capital": "Lusaka",
+      "country": "Zambia",
+      "colonizer": "Britain"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        31.05,
+        -17.83
+      ]
+    },
+    "properties": {
+      "capital": "Harare",
+      "country": "Zimbabwe",
+      "colonizer": "Britain"
+    }
+  }
+]

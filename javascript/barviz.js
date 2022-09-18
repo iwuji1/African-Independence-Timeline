@@ -13,7 +13,7 @@ var svg = d3.select("#bar_viz")
           "translate(" + margin.left + "," + margin.top + ")");
 
 // Parse the Data
-d3.csv("/javascript/African Independence timeline - Colonizer List.csv", function(data) {
+d3.csv("javascript/African Independence timeline - Colonizer List.csv").then(function(data) {
 
   // Add X axis
   var x = d3.scaleLinear()
@@ -32,6 +32,7 @@ d3.csv("/javascript/African Independence timeline - Colonizer List.csv", functio
     .range([ 0, (height) ])
     .domain(data.map(function(d) { return d.Colonizer; }))
     .padding(.1);
+
   svg.append("g")
     .attr("class", "Y-axis")
     .call(d3.axisLeft(y))
