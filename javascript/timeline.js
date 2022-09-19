@@ -3,20 +3,20 @@ gsap.registerPlugin(ScrollTrigger)
 gsap.registerPlugin(ScrollToPlugin)
 
 
-// Smooth Snap between full-screen sections
-gsap.utils.toArray(".full-screen").forEach((panel, i) => {
-  ScrollTrigger.create({
-    trigger: panel,
-    start: "top top",
-    pin: true,
-    pinSpacing: false
-  });
-});
-
-
-ScrollTrigger.create({
-  snap: 1 / 16 // snap whole page to the closest section!
-});
+// // Smooth Snap between full-screen sections
+// gsap.utils.toArray(".full-screen").forEach((panel, i) => {
+//   ScrollTrigger.create({
+//     trigger: panel,
+//     start: "top top",
+//     pin: true,
+//     pinSpacing: false
+//   });
+// });
+//
+//
+// ScrollTrigger.create({
+//   snap: 1 / 16 // snap whole page to the closest section!
+// });
 
 //Scroll trigger for chart animation
 gsap.from("#bar_viz", {
@@ -30,39 +30,31 @@ gsap.from("#bar_viz", {
   ease: "expo"
 });
 
-gsap.set(".infoToShow",
-{opacity: 0
-})
-
-const tl = gsap.timeline();
-tl.to(".infoToShow",
-{duration: 0.2,
-  opacity: 1,
-  rotateY: 0})
-.to('infoToShow',
-{ duration: 0.2,
-  opacity: 0,
-  rotateY: 0
-})
-//
-// const ST = ScrollTrigger.create({
-//   trigger:"#info1",
-//   start:"top top",
-//   end:"top",
-//   pin:true,
-// })
-
-// let check;
-//
-gsap.utils.toArray(".infoToShow").forEach((article, i) => {
-  ScrollTrigger.create({
-    animation: tl,
-    trigger: article,
-    start:"top top",
-    pin:true,
-    pinSpacing: false
+gsap.from(
+  ".map-content",{
+    scrollTrigger: {
+      trigger: "#map",
+      scrub:true,
+      pin:true,
+      start: "top top",
+      end: "+=10%"
+    },
+    y: 300,
+    ease: "none",
+    duration:3
   });
+
+
+
+ScrollTrigger.create({
+  trigger: "#info1",
+  endTrigger: "#step-4",
+  start: "center center",
+  end: "center center",
+  pin: true,
+  pinSpacing: false,
 });
+
 //
 // console.log(check)
 

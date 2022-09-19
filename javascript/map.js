@@ -73,7 +73,6 @@ function createMap(data) {
     .data(key)
     .enter()
     .append("text")
-      .attr("class", "legend")
       .attr("x", 120)
       .attr("y", function(d,i){ return 100 + i*25})
       .style("fill", function(d){ return color(d)})
